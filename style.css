@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.manu-continer{
+    background-color:rgb(32, 32, 32);
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+.logo{
+    width: 180px;
+}    
+.manus{
+    display: flex;
+}
+.item{
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.item:hover{
+    color: tomato;
+}
+.banner-container{
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53) );
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.banner-img{
+    width: 500px;
+}
+.banner-title{
+    font-size: 60px;
+}
+.banner-discription{
+    font-size: 20px;
+}
+.btn{
+    background-color: tomato;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.about-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 300px;
+
+}
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 2px 2px 50px 7px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+#service-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+   
+}
+.icon{
+    width: 70px;
+}
+.service-container{
+    background-image: url("./images/background.png"),linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53) );
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+}
+.box-discription{
+    padding: 5px;
+    text-align: justify;
+}
+.bottom-banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 500px;
+    list-style: none;
+}
+h2{
+    text-decoration-line: underline;
+}
+.bottom-gap{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.hr-line{
+    width: 1000px;
+    margin-left: 20%;
+}
